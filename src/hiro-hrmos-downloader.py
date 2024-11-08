@@ -31,9 +31,6 @@ with open('C:/Users/USER/Desktop/Hiro名簿変換前/download_log.csv', mode='a'
 
         time.sleep(2)  # ページの読み込みを待機
         print("ログインが成功しました。")
-
-
-
         try:
             monthly_link = driver.find_element(By.ID, "montyl_working_summary_link")
             monthly_link.click()
