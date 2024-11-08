@@ -1,11 +1,8 @@
 # 仮想環境フォルダ
 venv/
 
-# Pythonキャッシュフォルダ
+# Pythonのキャッシュファイル
 __pycache__/
 
-# 機密情報や環境変数ファイル
+# 機密情報
 .env
-
-# macOSの隠しファイル
-.DS_Store
