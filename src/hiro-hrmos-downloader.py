@@ -38,7 +38,7 @@ with open('C:/Users/USER/Desktop/Hiro名簿変換前/download_log.csv', mode='a'
             monthly_link = driver.find_element(By.ID, "montyl_working_summary_link")
             monthly_link.click()
             print("「月別データ」リンクをクリックしました。")
-            time.sleep(2)  # リンククリック後のページ読み込みを待機
+            time.sleep(100)  # リンククリック後のページ読み込みを待機
         except Exception as e:
             print("「月別データ」リンクをクリックできませんでした:", e)
 
